@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 
 app.get(
   '/', 
-  (req, res) => res.send("Hello world")
+  (req, res) => res.send("Hello world <br><br> To test this application, pass a name in parameters and it will display 'Hello name', as well as a button 'bring the metrics' that, when clicked, will display two lines showing timestamps.<br>Example: localhost:/1338/hello/Laura")
 )
 
 app.get(
